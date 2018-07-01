@@ -1,0 +1,130 @@
+.header {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+}
+.navtop {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-around;
+}
+.logo {
+  color: MediumAquamarine;
+  display: flex;
+  height: 80px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
+.navlink {
+  color: black;
+  display: inline-block;
+}
+body {
+ margin: 0;
+ padding: 0;
+}
+.logow {
+  color: MediumAquamarine;
+  display: flex;
+  width: 150px;
+  height: 60px;
+  align-items: center;
+}
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+.columns{
+  display: flex;
+  justify-content: space-around;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.column.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+}
+.column.medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.column.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+.cl {
+  display: flex;
+  flex-direction: column;
+}
+.cl , .cm , .cs, .hl1 , .hl2 , .hl3 , .hl4 {
+}
+.hl1 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  align-items: flex-start;
+  display: flex;
+}
+.hl2 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+.hl3 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+.hl4 {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+.ms {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  align-items: flex-start;
+  display: flex;
+}
+.it {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+.hl1 , .hl2 , .hl3 , .hl4 {
+  height: 300px;
+}
+.hl2 , .hl3 , .hl4 {
+  justify-content: center;
+  display: flex;
+}
+.story1 {
+  display: flex;
+  flex-direction: column;
+}
+.story2 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+}
+.story3 {
+  flex-direction: column;
+  width: 300px;
+}
+.story23 {
+  display: inline-flex;
+  justify-content: space-between;
+  height: 600px;
+  border: 1px solid blue;
+  align-items: center;
+}
+.words {
+  display: flex;
+  height: 100px;
+  width: 300px;
+  border: 1px solid blue;
+}
