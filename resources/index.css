@@ -119,12 +119,45 @@ header {
   display: inline-flex;
   justify-content: space-between;
   height: 600px;
-  border: 1px solid blue;
   align-items: center;
 }
 .words {
   display: flex;
   height: 100px;
   width: 300px;
-  border: 1px solid blue;
+}
+.row3 {
+  display: flex;
+  flex-direction: column;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+.r31 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.footer1 {
+  background-color: MediumAquamarine;
+ margin: auto;
+ font-family: Verdana;
+ font-size: 12px;
+}
+.f1t{
+  font-family: Georgia;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
+}
+.footer {
+  display: flex;
+  height: 200px;
+  background-color: MediumAquamarine;
+ margin: auto;
+ font-family: Verdana;
+ font-size: 12px;
 }
